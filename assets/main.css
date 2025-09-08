@@ -45,3 +45,50 @@ body{
         display: block;
     }
 }
+
+.search2 form input{
+    border: none;
+    outline: none;
+    width: 223px;
+    padding-left: 4px;
+}
+.search2 button{
+    border: none;
+    outline: none;
+    background-color: var(--primary);
+    padding: 8px 13px;
+     
+}
+.search2 form{
+    border: 1px solid #E7E6EF;
+    border-radius: 5px;
+}
+
+/* end header */
+
+/* start footer */
+
+.footer{
+    background-color: #EEEFFB;
+    padding: 50px 0;
+}
+.footer a ,.address-info{
+    color: #8A8FB9;
+}
+.footer-item{
+    gap: 45px;
+}
+.right-side{
+    width: 60%;
+
+}
+.left-side{
+    gap: 35px;
+    align-items: flex-start;
+}
+.address-info h2{
+    margin-bottom: 15px;
+}
+
+
+/* end footer */
