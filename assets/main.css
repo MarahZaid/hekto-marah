@@ -62,6 +62,7 @@ body{
 .search2 form{
     border: 1px solid #E7E6EF;
     border-radius: 5px;
+    display: flex;
 }
 
 /* end header */
@@ -72,23 +73,49 @@ body{
     background-color: #EEEFFB;
     padding: 50px 0;
 }
+.footer .row{
+    gap: 20px;
+
+}
 .footer a ,.address-info{
     color: #8A8FB9;
 }
-.footer-item{
-    gap: 45px;
-}
+
 .right-side{
-    width: 60%;
+    width: calc((100% - 20px) / 2);
 
 }
 .left-side{
     gap: 35px;
     align-items: flex-start;
+    width: calc((100% - 20px) / 2);
+}
+.footer-item{
+    gap: 45px;
+    width: calc((100% - 70px) / 3);
+}
+.footer .right-side .row{
+    gap:35px;
+    align-items: flex-start;
 }
 .address-info h2{
     margin-bottom: 15px;
 }
+
+@media screen and (max-width:922px) {
+    .footer .left-side, .footer .right-side{
+        width: 100%;
+    }
+}
+@media screen and (max-width:576px) {
+    .footer{
+        text-align: center;
+    }
+    .footer-item{
+        width: 100%;
+    }
+}
+
 
 
 /* end footer */
