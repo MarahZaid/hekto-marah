@@ -119,3 +119,26 @@ body{
 
 
 /* end footer */
+.end-footer{
+    padding: 18px 0;
+    background-color: #E7E4F8;
+}
+.rights{
+    color: #9DA0AE;
+}
+.rights h3{
+    font-size: 16px;
+}
+.social i{
+    font-size: 15px;
+    padding: 8px;
+    border-radius: 50%;
+    background-color: #151875;
+   
+}
+.social .fa-facebook-f{
+    
+    padding: 8px 11px;
+    
+   
+}
