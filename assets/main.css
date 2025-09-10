@@ -2,7 +2,7 @@ body{
     font-family: var(--mainFont);
 }
 .header{
-    padding: 57px 0;
+    padding: 35px 0;
 }
 .header ul{
     display: flex;
@@ -67,6 +67,113 @@ body{
 
 /* end header */
 
+/*start hero*/
+.hero-section{
+    background-color: #F2F0FF;
+    padding: 36px 0;
+    position: relative;
+    margin-bottom: 20px;
+    
+    
+}
+.first-part{
+    width: 20%;
+
+    
+}
+.first-part img{
+    max-width: 90%;
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: 0;
+    right:75%
+ 
+    
+}
+.second-part{
+    width: 40%;
+}
+.second-part span{
+    color: var(--primary);
+    font-weight: bold;
+}
+.second-part h2{
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 33px;
+    font-weight: 500;
+}
+.second-part p{
+    color: #8A8FB9;
+    font-weight: bold;
+    width: 95%;
+}
+.third-part{
+    width: 40%;
+}
+.third-part img{
+    max-width: 100%;
+    width: 506px;
+    height: 489px;
+}
+
+@media screen and (max-width:922px) {
+    .first-part img{
+     height: 150px;
+    
+ 
+    }
+    .first-part{
+        width: 5%;
+    }
+    .second-part span{
+        font-size: 2.0vw;
+    }
+    .second-part p{
+        font-size: 2.0vw;
+    }
+    .second-part h2{
+        font-size: 3.5vw;
+    }
+   
+    
+}
+@media screen and (max-width:576px) {
+    .hero-section{
+       
+        flex-direction: column;
+
+    }
+    .first-part, .second-part,.third-part{
+        width: 100%;
+
+    }
+    .first-part img{
+    
+    width: 140px;
+    height: 140px;
+    
+    top: 0;
+    left: 65%;
+ 
+    }
+     .second-part span{
+        font-size: 3.5vw;
+    }
+    .second-part p{
+        font-size: 3.5vw;
+    }
+    .second-part h2{
+        font-size: 5vw;
+    }
+   
+}
+.end-hero{
+    text-align: center;
+}
+
+/*end hero*/
+
 /* start footer */
 
 .footer{
@@ -119,6 +226,7 @@ body{
 
 
 /* end footer */
+
 .end-footer{
     padding: 18px 0;
     background-color: #E7E4F8;

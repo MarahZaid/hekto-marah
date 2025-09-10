@@ -77,3 +77,9 @@ ul {
 .gap-3 {
     gap: 15px;
 }
+.gap-35{
+    gap: 35px;
+}
+.align-items{
+    align-items: flex-start;
+}
