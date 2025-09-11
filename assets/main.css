@@ -333,8 +333,6 @@ body{
 /* end newslater */
 
 /* start clients */
-
-/* end clients */
 .clients{
     padding: 50px 100px;
 }
@@ -353,6 +351,63 @@ body{
     }
     
 }
+
+/* end clients */
+
+
+/* start blog */
+
+.leatest-blog{
+    padding: 50px 0px 100px;
+   
+}
+.leatest-blog h2{
+    margin-bottom: 50px;
+    color: #151875;
+    font-family: "Josefin Sans", sans-serif;
+     font-size: 44px;
+}
+.leatest-blog .row{
+    justify-content: center;
+    gap: 45px;
+}
+.leatest-blog .blog{
+    flex-grow: 1;
+     flex-basis: 270px;
+    flex-shrink: 0;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    max-width: 370px;
+}
+.leatest-blog .blog-details{
+    padding: 20px 15px 30px 15px;
+}
+.leatest-blog .blog-details span{
+    font-family: "Josefin Sans", sans-serif;
+    color: #151875;
+    font-size: 1rem;
+}
+.leatest-blog .blog-details h3{
+    font-family: "Josefin Sans", sans-serif;
+    color: #151875;
+}
+.leatest-blog .blog-details p{
+    color: #72718F;
+    line-height: 2;
+    max-width: 330px;
+}
+.leatest-blog .blog-details a{
+    text-decoration: underline;
+}
+
+.leatest-blog .blog:hover h3, .leatest-blog .blog:hover a{
+    color: var(--primary);
+}
+.leatest-blog .blog:hover {
+    transform: scale(1.05); /* يكبر بنسبة 5% */
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2); /* ظل أوضح عند الـ hover */
+}
+/* end blog */
 
 /* start footer */
 
