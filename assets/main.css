@@ -275,6 +275,82 @@ body{
 }
 /* end products */
 
+/* start Categories */
+.top-categories{
+    padding: 20px 0 100px 0;
+}
+.top-categories h2{
+    margin-bottom: 40px;
+    color: #1A0B5B;
+     font-family: "Josefin Sans", sans-serif;
+     font-size: 44px;
+}
+.top-categories .row{
+    gap: 20px;
+    justify-content: center;
+}
+
+.top-categories .cat{
+    flex-grow: 1;
+    flex-basis: 275px;
+    flex-shrink: 0;
+    max-width: 275px;
+
+    
+}
+.top-categories .circle{
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    max-height: 270px;
+    background-color: #9877E7;
+    visibility: hidden;
+}
+.top-categories .img{
+    background-color: #F6F7FB;
+    border-radius: 50%;
+    width: 95%;
+    
+    height: 270px;
+    padding: 30px;
+    visibility: visible;
+     display: flex;
+     align-items: center; 
+    justify-content: center;
+    flex-direction: column; 
+    
+}
+
+
+.top-categories .img .btn2{
+    display: none;
+}
+.top-categories .img img{
+    max-width: 70%; 
+  max-height: 70%;
+    object-fit: contain;
+}
+.top-categories .cat-details{
+    padding: 30px 0;
+}
+.top-categories .cat-details span{
+    color: #151875;
+}
+.top-categories .cat:hover .btn2{
+    display: block;
+}
+.top-categories .cat:hover .circle{
+    visibility: visible;
+    transform: scale(1.05); 
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2); 
+}
+
+
+
+
+
+/* end Categories */
+
 /* start newslater */
 .newslater{
     background-image: url(../img/public/newslater.png);
@@ -407,8 +483,8 @@ body{
     color: var(--primary);
 }
 .leatest-blog .blog:hover {
-    transform: scale(1.05); /* يكبر بنسبة 5% */
-    box-shadow: 0 8px 20px rgba(0,0,0,0.2); /* ظل أوضح عند الـ hover */
+    transform: scale(1.05); 
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2); 
 }
 
 
