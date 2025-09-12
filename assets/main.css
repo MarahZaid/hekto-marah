@@ -369,15 +369,18 @@ body{
 }
 .leatest-blog .row{
     justify-content: center;
-    gap: 45px;
+    gap: 40px;
 }
 .leatest-blog .blog{
-    flex-grow: 1;
-     flex-basis: 270px;
-    flex-shrink: 0;
+     flex: 1 1 300px;  /* يكبر ويصغر حسب المساحة المتوفرة */
+    max-width: 370px;
+    min-width: 180px; 
     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    max-width: 370px;
+    
+}
+.leatest-blog .img img{
+    width: 100%;
 }
 .leatest-blog .blog-details{
     padding: 20px 15px 30px 15px;
@@ -407,6 +410,8 @@ body{
     transform: scale(1.05); /* يكبر بنسبة 5% */
     box-shadow: 0 8px 20px rgba(0,0,0,0.2); /* ظل أوضح عند الـ hover */
 }
+
+
 /* end blog */
 
 /* start footer */
