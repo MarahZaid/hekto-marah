@@ -275,6 +275,123 @@ body{
 }
 /* end products */
 
+/* start trending */
+
+.trending-product{
+    padding: 0 0 100px 0;
+}
+.trending-product .h2{
+    margin-bottom: 30px;
+    color: #1A0B5B;
+     font-family: "Josefin Sans", sans-serif;
+     font-size: 44px;
+}
+.trending-product  .row{
+    justify-content: flex-start;
+    gap: 15px;
+}
+.trending-product .top-trending{
+    padding-bottom: 30px;
+}
+.trending-product .top-trending .card-trinding{
+    flex-grow: 1;
+    flex-basis: 280px;
+    flex-shrink: 0;
+    box-shadow: 0px 8px 40px 0px rgba(49, 32, 138, 0.05);
+    padding-bottom: 30px;
+    padding-top: 10px;
+
+   
+}
+.trending-product .top-trending .card-trinding img{
+    padding-bottom: 20px;
+}
+.trending-product .buttom-trending .buttom-card {
+    flex-grow: 1;
+    flex-basis: 370px;
+    flex-shrink: 0;
+    height: 300px;
+   
+    
+}
+.trending-product .buttom-trending .buttom-card h2{
+    color: #151875;
+     font-family: "Josefin Sans", sans-serif;
+     font-size: 26px;
+     margin-bottom: 10px;
+}
+.trending-product .buttom-trending .buttom-card a{
+    color: #FB2E86;
+    text-decoration: underline;
+    font-weight: 500;
+}
+.trending-product .buttom-trending .card1{
+    background-color: #FFF6FB;
+     padding-top: 35px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+.trending-product .buttom-trending .card2{
+    background-color: #EEEFFB;
+     padding-top: 35px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+.trending-product .top-trending .card-trinding h3{
+    color: #151875;
+     font-family: "Josefin Sans", sans-serif;
+     font-size: 16px;
+   
+}
+.trending-product .top-trending .card-trinding .new-price{
+    color: #151875;
+     font-family: "Josefin Sans", sans-serif;
+     font-size: 16px;
+   
+}
+.trending-product .top-trending .card-trinding .old-price{
+    color: #151875;
+    opacity: 0.3;
+     font-family: "Josefin Sans", sans-serif;
+     font-size: 14px;
+     text-decoration: line-through;
+
+   
+}
+.trending-product .buttom-trending .buttom-card .img1{
+    width: 213px;
+    height: auto;
+    margin-left: 45%;
+   
+}
+
+.trending-product .buttom-trending .buttom-card .img2{
+    width: 312px;
+     height: auto;
+    margin-left: 15%;
+}
+.trending-product .buttom-trending .buttom-card .third-card {
+    align-items: center;
+}
+.trending-product .buttom-trending .buttom-card .third-card img{
+    background-color: #F5F6F8;
+    padding: 10px 20px;
+}
+.trending-product .buttom-trending .buttom-card .third-card h3{
+     color: #151875;
+     font-family: "Josefin Sans", sans-serif;
+     font-size: 16px;
+}
+.trending-product .buttom-trending .buttom-card .third-card span{
+     color: #151875;
+     font-family: "Josefin Sans", sans-serif;
+     font-size: 13px;
+     text-decoration: line-through;
+}
+
+/* end trending */
+
 /* start Categories */
 .top-categories{
     padding: 20px 0 100px 0;
