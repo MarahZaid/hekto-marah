@@ -195,28 +195,31 @@ body{
     flex-basis: 270px;
     flex-shrink: 0;
     box-shadow:  0px 4px 4px rgba(0, 0, 0, 0.1);
+    
 }
 
-.product .img{
+.featured-product .product .img{
     background-color: #F6F7FB;
     padding: 10px;
     height: 260px;
 }
-.product .img i{
+.featured-product .product .img i{
     font-size: 17px;
     padding: 10px;
     border-radius: 50%;
     visibility: hidden;
     color: #1389FF;
+    transition: all 0.5s ease;
 
 }
-.product .img img{
+.featured-product .product .img img{
     object-fit: contain;
     margin-bottom: 5px;
     height: 170px;
 }
-.product .img .btn2{
+.featured-product .product .img .btn2{
     visibility: hidden;
+    transition: all 0.5s ease;
 }
 
 .product-details{
@@ -224,10 +227,12 @@ body{
     flex-direction: column;
     gap: 10px;
     padding: 20px 0;
+    transition: all 0.5s ease;
 }
 
 .product-details h3{
     color: var(--primary);
+    transition: all 0.5s ease;
 }
 
 .product-details .color{
@@ -247,6 +252,7 @@ body{
 }
 .product-details .product-info{
     color: #151875;
+    transition: all 0.5s ease;
 }
 
 .featured-product .product:hover .product-details{
@@ -286,13 +292,25 @@ body{
      font-family: "Josefin Sans", sans-serif;
      font-size: 44px;
 }
+.leatest-products ul{
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.leatest-products ul li a{
+   color: #151875;
+   font-size: 18px;
+}
+.leatest-products ul li .active{
+    color: #FB2E86;
+    text-decoration: underline;
+}
 .leatest-products .row{
     
     gap: 30px;
 }
 .leatest-products .leatest-card{
     flex-grow: 1;
-    flex-basis: 370px;
+    flex-basis: 350px;
     flex-shrink: 0;
    
 }
@@ -306,7 +324,9 @@ body{
     height: 270px;
     width: 100%;
     position: relative;
+    transition: all 0.5s ease;
 }
+  
 
 .leatest-products .leatest-card .leatest-img .img-sale{
     position: absolute;
@@ -319,9 +339,11 @@ body{
     position: absolute;
     top: 90px;
     left: 30px;
+   transition: all 0.5s ease; 
 }
 .leatest-products .leatest-card:hover .leatest-img {
     background-color: white;
+    
 }
 .leatest-products .leatest-card:hover .leatest-img .icon-hovor{
     visibility: visible;
@@ -368,6 +390,22 @@ body{
      text-decoration: line-through;
 
 }
+@media screen and (max-width:576px) {
+    .leatest-products .leatest-card .leatest-info h3{
+    
+     font-size: 14px;
+     }
+    
+}
+
+@media screen and (max-width:576px) {
+   
+    .leatest-products .leatest-card{
+    max-width: 340px;
+   
+}
+}
+
 
 
 
@@ -434,6 +472,7 @@ body{
 .trending-product .top-trending .card-trinding{
     flex-grow: 1;
     flex-basis: 280px;
+    
     flex-shrink: 0;
     box-shadow: 0px 8px 40px 0px rgba(49, 32, 138, 0.05);
     padding-bottom: 30px;
@@ -446,7 +485,8 @@ body{
 }
 .trending-product .buttom-trending .buttom-card {
     flex-grow: 1;
-    flex-basis: 370px;
+    flex-basis: 330px;
+    max-width: 300;
     flex-shrink: 0;
     height: 300px;
    
@@ -498,14 +538,14 @@ body{
    
 }
 .trending-product .buttom-trending .buttom-card .img1{
-    width: 213px;
+    width: 60%;
     height: auto;
     margin-left: 45%;
    
 }
 
 .trending-product .buttom-trending .buttom-card .img2{
-    width: 312px;
+    width: 80%;
      height: auto;
     margin-left: 15%;
 }
@@ -550,6 +590,7 @@ body{
     flex-basis: 275px;
     flex-shrink: 0;
     max-width: 275px;
+    transition: all 0.5s ease;
 
     
 }
@@ -560,6 +601,7 @@ body{
     max-height: 270px;
     background-color: #9877E7;
     visibility: hidden;
+    transition: all 0.5s ease;
 }
 .top-categories .img{
     background-color: #F6F7FB;
@@ -579,6 +621,7 @@ body{
 
 .top-categories .img .btn2{
     display: none;
+    transition: all 0.5s ease;
 }
 .top-categories .img img{
     max-width: 70%; 
@@ -660,12 +703,20 @@ body{
         padding: 8px 16px;
         font-size: 0.85rem;
     }
+    .newslater{
+        background-size: cover;
+   
+    padding: 100px 100px; 
+    
+   
+    
+}
 }
 /* end newslater */
 
 /* start clients */
 .clients{
-    padding: 50px 100px;
+    padding: 50px 0;
 }
 .clients .row{
     flex-wrap: nowrap;
