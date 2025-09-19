@@ -91,6 +91,9 @@ ul {
 .gap-35{
     gap: 35px;
 }
+.gap-50{
+    gap: 30%;
+}
 .align-items{
     align-items: flex-start;
 }
